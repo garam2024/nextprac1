@@ -30,6 +30,7 @@ export async function getStaticProps() {
       meetups: DUMMY_MEETUPS
     },
     revalidate: 1
+    //배포할때 도움되는 기능인듯?
   }; 
 }
 

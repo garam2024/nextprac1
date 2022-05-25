@@ -4,6 +4,9 @@ import Card from '../ui/Card';
 import classes from './MeetupItem.module.css';
 
 function MeetupItem(props) {
+  //사용자의선택을 감지하는 객체를 사용할 꺼니까
+  //컴포넌트 함수의 최상위 수준 ? 수준이 뭘 의미? 
+  
   const router = useRouter();
 
   function showDetailsHandler() {

@@ -22,7 +22,8 @@ const DUMMY_MEETUPS = [
 function HomePage(props) {
   return <MeetupList meetups={props.meetups} />;
 }
-
+//두개 차이는 얼마나 페이지가 동적으로 자주 바뀌냐에 따라 사용을 결정하는 것 같다 
+//요청이 들어올 때만 
 // export async function getServerSideProps(context) {
 //   const req = context.req;
 //   const res = context.res;
